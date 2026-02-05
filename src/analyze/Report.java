@@ -47,10 +47,10 @@ public class Report {
 
         long totalBytes = 0;
         for (LogEntry e : entries) {
-            ips.add(e.ip);
-            paths.add(e.path);
-            statuses.add(e.status);
-            totalBytes += e.bytes;
+            ips.add(e.getIp());
+            paths.add(e.getPath());
+            statuses.add(e.getStatus());
+            totalBytes += e.getBytes();
         }
 
         Map<String, Integer> ipCounts = Counter.count(ips);

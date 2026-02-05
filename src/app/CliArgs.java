@@ -13,7 +13,7 @@ public class CliArgs {
     public int topK() { return topK; }
 
     public static CliArgs parse(String[] args) {
-        String file = "C:\\Users\\Hakkı\\Desktop\\javaProjects\\analyzer\\sample-data\\acces.log";
+        String file = "sample-data/access.log";
         int top = 5;
 
         for (int i = 0; i < args.length; i++) {
