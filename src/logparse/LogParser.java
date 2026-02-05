@@ -1,4 +1,4 @@
-package Logparse;
+package logparse;
 
 import model.LogEntry;
 

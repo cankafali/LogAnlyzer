@@ -1,7 +1,7 @@
 package analyze;
 
 import model.LogEntry;
-import Logparse.LogParser;
+import logparse.LogParser;
 
 import java.util.ArrayList;
 import java.util.List;

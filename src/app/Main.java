@@ -1,8 +1,8 @@
 package app;
 
 import analyze.Report;
-import Logio.LogReader;
-import Logparse.LogParser;
+import logio.LogReader;
+import logparse.LogParser;
 
 import java.io.IOException;
 import java.util.List;
